@@ -22,7 +22,7 @@ header{
 
 #logo{
     font-family: 'Road Rage', cursive;
-    font-size: 200%;
+    font-size: 140%;
     text-decoration: none;
     color:#fafafa;
     float:left;
@@ -35,7 +35,7 @@ header{
 }
 
 #hero-image{
-    height: 500px;
+    height: 350px;
     width:100%;
     background-image:url("../images/rosie.jpg");
     background-repeat: no-repeat;
@@ -44,26 +44,22 @@ header{
 }
 
 #hero-section{
-    height: 500px;
+    height: 350px;
     width:100%;
     overflow:hidden;
 }
 
 #nav{
     background-color: #000;
-    font-size:120%;
+    font-size:90%;
     list-style-type:none;
 }
 
-@media screen and (min-width: 641px) {
-    #nav {
-      font-size: 80%;
-    }
-  }
+
 
 #nav a{
 color: #fafafa;
-font-size: 1.2em;
+font-size: 90%;
 text-decoration: none;
 font-family: 'Roboto';
 }
@@ -75,3 +71,17 @@ font-family: 'Roboto';
 #logo, #nav{
     line-height:75px;
 }
+
+/*-----------------------------------------------Media queries*/
+@media screen and (min-width: 641px) {
+    #nav{
+      font-size: 120%;
+    }
+    #logo{
+        font-size: 180px;
+    }
+    #hero-image, #hero-section{
+        height:500px;
+
+    }
+  }
