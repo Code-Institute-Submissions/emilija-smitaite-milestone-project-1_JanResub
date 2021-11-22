@@ -13,8 +13,10 @@ body{
 .uppercase{
     text-transform: uppercase;
 }
-
-
+iframe {
+    display: block;
+    margin: 0 auto;
+ }
 /*-----------------------------------------------Heading*/
 header{
     margin:0;
@@ -29,13 +31,6 @@ header{
     letter-spacing: 3px;
     margin-left:30px;
     
-}
-#logo:hover{
-    color:#a19d9d;
-}
-
-#nav a:hover{
-    color:#a19d9d;
 }
 
 #hero-image{
@@ -57,7 +52,9 @@ header{
     background-color: #000;
     font-size:90%;
     list-style-type:none;
-    float:left
+    float:left;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -66,7 +63,7 @@ header{
 color: #fafafa;
 font-size: 90%;
 text-decoration: none;
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 
 }
 
@@ -77,6 +74,16 @@ font-family: 'Roboto';
 #logo, #nav{
     line-height:75px;
 }
+
+/*-----------------------------------------------Hover*/
+#logo:hover{
+    color:#a19d9d;
+}
+
+#nav a:hover{
+    color:#a19d9d;
+}
+
 
 /*-----------------------------------------------Media queries*/
 @media screen and (min-width: 641px) {
@@ -97,7 +104,6 @@ font-family: 'Roboto';
   }
   #iframe{
     width:600px;
-    text-align: center;
   }
   
 
@@ -137,3 +143,40 @@ font-family: 'Roboto';
   #social-header i{
     color:#fafafa;
   }
+
+   /*-----------------------------------------------Footer*/
+   footer{
+       color:#fafafa;
+       min-height: 110px;
+       padding-top: 20px;
+       font-weight: 200;
+   }
+
+   footer h6, p{
+       font-family: 'Roboto', sans-serif;
+   }
+.inline-block{
+    display:inline-block;
+}
+
+.footer-col-small{
+    font-size: 85%;
+}
+
+.block{
+    display:block;
+}
+
+#social-footer>i{
+    color:#fafafa;
+  }
+
+i{
+    color:#fafafa;
+}
+ 
+header>i:hover{
+    color:aquamarine;
+}
+
+
