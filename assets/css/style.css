@@ -16,6 +16,7 @@ body{
 iframe {
     display: block;
     margin: 0 auto;
+    border:0;
  }
 /*-----------------------------------------------Heading*/
 header{
@@ -54,7 +55,6 @@ header{
     list-style-type:none;
     float:left;
     font-family: 'Roboto', sans-serif;
-
 }
 
 
@@ -70,6 +70,7 @@ font-family: 'Roboto', sans-serif;
 #nav li{
     float:right;
     margin-right: 40px;
+    /*display:inline;*/
 }
 #logo, #nav{
     line-height:75px;
@@ -83,7 +84,9 @@ font-family: 'Roboto', sans-serif;
 #nav a:hover{
     color:#a19d9d;
 }
-
+a i:hover{
+color:red;
+}
 
 /*-----------------------------------------------Media queries*/
 @media screen and (min-width: 641px) {
@@ -105,10 +108,25 @@ font-family: 'Roboto', sans-serif;
   #iframe{
     width:600px;
   }
-  
+  #social-header-top{
+      display:none;
+    
+  }
 
   }
- 
+  @media screen and (max-width: 640px){
+      #social-header{
+          display:none;
+      }
+  }
+  @media screen and (max-width: 320px){
+      #nav li{
+          margin-right: 10px;
+      }
+      iframe{
+          width:320px;
+      }
+  }
 
   /*-----------------------------------------------Banners*/
   #banner{
@@ -120,8 +138,8 @@ font-family: 'Roboto', sans-serif;
   #cover-text{
       color:black;
       text-transform: uppercase;
-      width:50%;
-      height:65%;
+      width: 70%;
+      height:75%;
       background-color: rgba(0, 0, 0, 0.4);
       float:right;
       margin-top:80px;
@@ -129,7 +147,8 @@ font-family: 'Roboto', sans-serif;
 
       h2{
           
-          font-size: 70%;
+          font-size: 110%;
+          
       }
 
    *, ::after, ::before {
@@ -143,7 +162,10 @@ font-family: 'Roboto', sans-serif;
   #social-header i{
     color:#fafafa;
   }
-
+  #social-header-top{
+    float:right;
+    margin-right: 10px;
+}
    /*-----------------------------------------------Footer*/
    footer{
        color:#fafafa;
