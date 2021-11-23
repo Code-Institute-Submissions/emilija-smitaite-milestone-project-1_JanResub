@@ -172,17 +172,6 @@ font-weight: 700;
     box-sizing: border-box;
    }
   
-  /*-----------------------------------------------Social*/
-  #social-header {
-      float:right;
-  }
-  #social-header i {
-    color:#fafafa;
-  }
-  #social-header-top {
-    float:right;
-    margin-right: 1rem;
-}
    /*-----------------------------------------------Footer*/
    footer {
        font-family: 'Roboto', sans-serif;
