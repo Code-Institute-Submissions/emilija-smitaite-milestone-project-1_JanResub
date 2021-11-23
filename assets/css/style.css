@@ -65,6 +65,7 @@ color: #fafafa;
 font-size: 90%;
 text-decoration: none;
 font-family: 'Roboto', sans-serif;
+font-weight: 700;
 }
 
 #nav li{
@@ -109,14 +110,16 @@ font-family: 'Roboto', sans-serif;
       display:none;
     
   }
+  
+}
 
-  }
-  @media screen and (max-width: 640px){
+
+@media screen and (max-width: 640px){
       #social-header{
           display:none;
       }
   }
-  @media screen and (max-width: 320px){
+@media screen and (max-width: 320px){
       #nav li{
           margin-right: 10px;
       }
@@ -133,19 +136,47 @@ font-family: 'Roboto', sans-serif;
       position:relative;
   }
   #cover-text{
+      font-family: 'Roboto', sans-serif;
       color:black;
       text-transform: uppercase;
       width: 85%;
       height:75%;
-      background-color: rgba(0, 0, 0, 0.4);
+      background-color: rgba(0, 0, 0, 0.3);
       float:right;
       margin-top:80px;
-      position:absolute;}
+      position:absolute;
+      padding:3%;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-align: right;
+    }
 
-      h2{
-          
-          font-size: 110%;
-          
+    #cover-text-2{
+        font-family: 'Roboto', sans-serif;
+        color:black;
+        text-transform: uppercase;
+        width: 85%;
+        height:85%;
+        background-color: rgba(0, 0, 0, 0.3);
+        float:right;
+        margin-top:40px;
+        position:absolute;
+        padding:3%;
+        font-weight: 900;
+        letter-spacing: 2px;
+        text-align: left;
+      }
+
+    #cover-text p{
+        padding:3%;
+        font-weight: 500;
+    }
+
+
+
+    #cover-text h2{  
+          font-size: 110%; 
+          padding:3px;
       }
 
    *, ::after, ::before {
@@ -165,10 +196,13 @@ font-family: 'Roboto', sans-serif;
 }
    /*-----------------------------------------------Footer*/
    footer{
+       font-family: 'Roboto'sans-serif;
        color:#fafafa;
        min-height: 110px;
        padding-top: 20px;
        font-weight: 200;
+       border-top: solid 1px #fafafa;
+       margin-top:10px;
    }
 
    footer h6, p{
@@ -179,7 +213,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .footer-col-small{
-    font-size: 85%;
+    font-size: 95%;
 }
 
 .block{
@@ -220,7 +254,7 @@ margin:0 auto;
     border:1px solid #a19d9d;
     padding:10px;
     margin-right: 5px;
-    border-radius: 1%;
+   
     
 }
 #albums{
