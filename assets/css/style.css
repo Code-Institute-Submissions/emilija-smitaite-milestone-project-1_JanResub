@@ -17,6 +17,7 @@ iframe {
     display: block;
     margin: 0 auto;
     border:0;
+    padding:10px;
  }
 /*-----------------------------------------------Heading*/
 header{
@@ -64,7 +65,6 @@ color: #fafafa;
 font-size: 90%;
 text-decoration: none;
 font-family: 'Roboto', sans-serif;
-
 }
 
 #nav li{
@@ -83,9 +83,6 @@ font-family: 'Roboto', sans-serif;
 
 #nav a:hover{
     color:#a19d9d;
-}
-a i:hover{
-color:red;
 }
 
 /*-----------------------------------------------Media queries*/
@@ -154,6 +151,7 @@ color:red;
    *, ::after, ::before {
     box-sizing: border-box;
    }
+
   
   /*-----------------------------------------------Social*/
   #social-header{
@@ -197,8 +195,36 @@ i{
     color:#fafafa;
 }
  
-header>i:hover{
-    color:aquamarine;
+/*-----------------------------------------------Album covers*/
+
+.album-covers img{
+text-align: center;
+height:250px;
+
+/*The following two properties were taken from https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/*/
+display: flex;
+justify-content: center;
+
+margin:0 auto;
+}
+.album-covers div{
+    margin:0 auto;
+}
+.album-covers p{
+     text-align: center; 
+     margin:0 auto;
+     color:#a19d9d;
+  
 }
 
-
+.album-background{
+    border:1px solid #a19d9d;
+    padding:10px;
+    margin-right: 5px;
+    border-radius: 1%;
+    
+}
+#albums{
+    margin:0;
+    padding:0;
+}
