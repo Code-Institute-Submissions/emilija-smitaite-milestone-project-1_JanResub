@@ -83,46 +83,25 @@ font-weight: 700;
     color:#a19d9d;
 }
 /*-----------------------------------------------Media queries*/
-/*@media screen and (min-width: 641px) {*/
-/*    #nav{*/
-/*      font-size: 120%;*/
-/*    }*/
-/*    #logo {*/
-/*        font-size: 18rem;*/
-/*    }*/
-/*    #hero-image, #hero-section {*/
-/*        height:50rem;*/
-/*    }*/
-/*  #social-header {*/
-/*    margin-right: 3rem;*/
-/*    margin-top: 1.5rem;*/
-/*    font-size: 1.5em;*/
-/*  }*/
-/*  #iframe {*/
-/*    width:60rem;*/
-/*  }*/
-/*  #social-header-top {*/
-/*      display:none;*/
-/*    */
-/*  }*/
-/*  */
-/*}*/
-/*@media screen and (max-width: 640px) {*/
-/*      #social-header{*/
-/*          display:none;*/
-/*          margin-right: 3rem;*/
-/*          margin-top: 1.5rem;*/
-/*          font-size: 1.5em;*/
-/*      }*/
-/*  }*/
-/*@media screen and (max-width: 320px) {*/
-/*      #nav li{*/
-/*          margin-right: 1rem;*/
-/*      }*/
-/*      iframe{*/
-/*          width:32rem;*/
-/*      }*/
-/*  }*/
+@media screen and (min-width:1020px) {
+#nav {
+     font-size:120%;
+   ;
+    }
+
+#logo {
+        font-size: 18rem;
+       
+     }
+#hero-image, #hero-section {
+ height:50rem;
+   }
+
+#iframe {
+  width:60rem;
+  }
+}
+
   /*-----------------------------------------------Banners*/
   .banner {
       width: 100%;
