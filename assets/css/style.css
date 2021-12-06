@@ -80,21 +80,6 @@ font-weight: 700;
     overflow:hidden;
 }
 
-#gallery-hero-image {
-    height: 35rem;
-    width:100%;
-    background-image:url("../images/gallery-1.jpg");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:cover;
-}
-#gallery-hero-section {
-    height: 35rem;
-    width:100%;
-    overflow:hidden;
-}
-
-
 /*-----------------------------------------------Hover*/
 #logo:hover {
     color:#a19d9d;
@@ -256,3 +241,20 @@ margin:0 auto;
     width:100%;
     overflow:hidden;
 }
+/*-----------------------------------------------Gallery*/
+.audio p {
+    font-family: 'Roboto';
+   color:#fafafa;
+   clear:both;
+  
+}
+
+#gallery {
+    clear:both;
+    line-height: 0;
+    column-count:2;
+    column-gap:0;
+  }
+  #gallery img{
+    width:100%;
+  }
