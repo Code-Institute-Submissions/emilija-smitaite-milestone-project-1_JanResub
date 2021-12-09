@@ -108,22 +108,15 @@ font-weight: 700;
 }
 
   /*-----------------------------------------Gallery media queries*/
-  @media screen and (max-width: 992px) !important {
+  @media screen and (min-width: 1024px) !important {
  #gallery {
     clear:both;
     line-height: 0;
     column-count:4;
     column-gap:0;
   }
-  .banner-gallery{
-     width:50%; 
+ 
 }
- .audio{
-     display:inline-block;
- }
-}
-
-
 
   /*-----------------------------------------------Banners*/
   .banner {
@@ -277,4 +270,16 @@ margin:0 auto;
     width:100%;
   }
 
-  
+   /*-----------------------------------------------Form*/
+   
+   #form {
+       border:1px solid #fafafa;
+       width:70%;
+       margin-left: 15%;
+       margin-right: 15%;
+       height:20rem;
+       background-color:rgba(0, 0, 0, 0.3);
+       color:#fafafa;
+       clear:both;
+       text-align: center;
+   }
