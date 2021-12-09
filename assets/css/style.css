@@ -107,6 +107,24 @@ font-weight: 700;
   }
 }
 
+  /*-----------------------------------------Gallery media queries*/
+  @media screen and (max-width: 992px) !important {
+ #gallery {
+    clear:both;
+    line-height: 0;
+    column-count:4;
+    column-gap:0;
+  }
+  .banner-gallery{
+     width:50%; 
+}
+ .audio{
+     display:inline-block;
+ }
+}
+
+
+
   /*-----------------------------------------------Banners*/
   .banner {
       width: 100%;
@@ -258,3 +276,5 @@ margin:0 auto;
   #gallery img{
     width:100%;
   }
+
+  
