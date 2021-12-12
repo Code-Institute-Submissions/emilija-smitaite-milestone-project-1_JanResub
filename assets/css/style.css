@@ -24,6 +24,7 @@ iframe {
     margin: 0 auto;
     border:0;
     padding:1rem;
+    width:100%;
  }
 /*-----------------------------------------------Heading*/
 header {
@@ -58,7 +59,6 @@ font-weight: 700;
     float:right;
     margin-right: 4rem;
     font-size: 1.5rem;
-    /*display:inline;*/
 }
 #logo, #nav {
     line-height:7.5rem;
@@ -88,43 +88,60 @@ font-weight: 700;
     color:#a19d9d;
 }
 /*-----------------------------------------------Media queries*/
-@media screen and (min-width:1020px) {
-#nav {
-     font-size:120%;
-   ;
+@media screen and (min-width:768px) {
+    .form {
+        width:70% !important;
+        margin-left:15% !important;
+        margin-right:15% !important;
+      }
+}
+
+@media screen and (min-width:1024px) {
+    #nav {
+         font-size:120%;
+        }
+    
+    h1 {
+            font-size: 6rem;
+         }
+    
+    #hero-image, #hero-section {
+     height:50rem;
+       }
+    
+    .iframe {
+      width:66%;
+      }
+    
+      .gallery {
+        column-count:3 !important;
+      }
+    
+      .form {
+        width:50% !important;
+        margin-left:25% !important;
+        margin-right:25% !important;
+      }
     }
 
-#logo {
-        font-size: 18rem;
-       
-     }
-#hero-image, #hero-section {
- height:50rem;
-   }
+@media screen and (min-width:1200px) {
 
-#iframe {
-  width:60rem;
+.iframe {
+  width:50%;
+  }
+
+  .gallery {
+    column-count:4 !important;
+  }
+
+  .form {
+    width:33% !important;
+    margin-left:33% !important;
+    margin-right:33% !important;
   }
 }
-
-  /*-----------------------------------------Gallery media queries*/
-  @media screen and (min-width: 1024px) {
- #gallery {
-    clear:both;
-    line-height: 0;
-    column-count:4;
-    column-gap:0;
-  }
-
-  /*-----------------------------------------Sign up form media queries*/
-  @media screen and (min-width: 1024px) {
-    width:33%;
-    margin-left:33%;
-    margin-right:33%;
-  }
-
  
-}
+
 
   /*-----------------------------------------------Banners*/
   .banner {
@@ -184,6 +201,7 @@ font-weight: 700;
        font-weight: 200;
        border-top: solid 1px #fafafa;
        margin-top:1rem;
+     
    }
    footer h6, p{
        font-family: 'Roboto', sans-serif;
@@ -217,6 +235,13 @@ i{
     font-weight: 400;
     font-size: xx-large;
 }
+
+ /*The following two properties were taken from https://matthewjamestaylor.com/bottom-footer*/
+.sign-up-footer {
+position:absolute;
+bottom:0;
+}
+
 /*-----------------------------------------------Album covers*/
 .album-covers img {
 text-align: center;
@@ -268,32 +293,32 @@ margin:0 auto;
   
 }
 
-#gallery {
+.gallery {
     clear:both;
     line-height: 0;
     column-count:2;
     column-gap:0;
   }
-  #gallery img {
+  .gallery img {
     width:100%;
   }
 
    /*-----------------------------------------------Form*/
    
-   #form {
+   .form {
        border:1px solid #fafafa;
-       width:70%;
-       margin-left: 15%;
-       margin-right: 15%;
+       width:90%;
+       margin-left: 5%;
+       margin-right: 5%;
        height:20rem;
-       background-color:rgba(0, 0, 0, 0.3);
+      
        color:#fafafa;
        clear:both;
        text-align: left;
        padding:1rem;
    }
 
-   #form p {
+   .form p {
        text-align: center;
    }
 
@@ -310,3 +335,6 @@ margin:0 auto;
     background-color: #fafafa;
    }
    
+   #emailHelp{
+       color:#fafafa;
+   }
