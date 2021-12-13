@@ -98,6 +98,10 @@ ol, ul {
         margin-left:15% !important;
         margin-right:15% !important;
       }
+      ol, ul {
+        padding-left: 2rem;
+    }
+    
 }
 
 @media screen and (min-width:1024px) {
