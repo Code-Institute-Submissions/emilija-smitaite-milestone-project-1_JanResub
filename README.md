@@ -1,7 +1,9 @@
 # The Racketears Website
 [View the live project here.](https://emilija-smitaite.github.io/milestone-project-1/)
 
-This is the official website for a retired rock band The Racketears. As the band is no longer active, this website serves as a way to share their artwork and keep in contact with their fans.  The website is easy to use and responsive. In the future playlist would be a desired addition to the gallery page.
+This is the official website for a retired rock band The Racketears. As the band is no longer active, this website serves as a way to share their artwork and keep in contact with their fans.  The website is easy to use and responsive.
+
+![Mock up](assets/images/mock-up.png)
 
 # User Experience (UX)
 ## User stories
