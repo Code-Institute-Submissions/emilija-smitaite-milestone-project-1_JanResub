@@ -8,6 +8,12 @@ This is the official website for a retired rock band The Racketears. As the band
 # User Experience (UX)
 ## User stories
 
+   #### **Client Goals**
+   The client is a music band The Racketears.
+   1. As a client, I want a website that reflects my music style.
+   2. As a client, I want to  have a way to be contacted online.
+   3. As a client, I want to have a website for sharing artwork and photos.
+   4. As a client, I want to grow the number of subscribers to my email newsletter.
 
    #### **First time visitor goals**
    1. As a First Time Visitor, I want to immediately identify the main purpose of the website.
@@ -33,9 +39,9 @@ This is the official website for a retired rock band The Racketears. As the band
   - Hero image contains band members to help identify the band. Rustic film photography hints at the time music was produced in the early 2000s. The Colour scheme matches the rest of the website.
 
 ## Wireframes
-- Home Page Wireframe
-- Mobile Wireframe
-- Contact Us Page Wireframe
+- [Home Page Wireframe](assets/images/desktop-wireframe.png)
+- [iPad Wireframe](assets/images/ipad-wireframe.png)
+- [Mobile Wireframe](assets/images/mobile-wireframe.png)
 
 ## Features
 * Responsive on all device sizes
@@ -66,6 +72,20 @@ This is the official website for a retired rock band The Racketears. As the band
  The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ## Testing User Stories from User Experience (UX) Section
+#### **Client Goals**
+The client is a music band The Racketears.
+1. As a client, I want a website that reflects my music style.
+* Dark background, contrasting colours and sharp corners are suitable for a rock band.
+* Black and white background and navigation help images to stand out.
+2. As a client, I want to have a way to be contacted online.
+* The contact email is displayed at the footer of the page.
+* Social media links are presented as large eye-catching icons.
+3. As a client, I want to have a website for sharing artwork and photos.
+* Gallery page's layout is focused on displaying photos.
+* Homepage displays multiple videos.
+4. As a client, I want to grow the number of subscribers to my email newsletter.
+Get in touch page contains a form to subscribe to a newsletter.
+
 #### **First time visitor goals**
    1. As a First Time Visitor, I want to immediately identify the main purpose of the website.
    * Upon entering the site, users are greeted with the band name at the top left corner.
