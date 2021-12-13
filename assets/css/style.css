@@ -64,6 +64,9 @@ font-weight: 700;
 #logo, #nav {
     line-height:7.5rem;
 }
+ol, ul {
+    padding-left: 1.5rem;
+}
 
 /*-----------------------------------------------Hero images*/
 #hero-image {
@@ -324,7 +327,6 @@ margin:0 auto;
    #exampleInputEmail1 {
     border-radius: 0px;
     color: #fafafa;
-    background-color: #fafafa;
    }
    
    #emailHelp{

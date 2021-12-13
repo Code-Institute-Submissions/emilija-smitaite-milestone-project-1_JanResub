@@ -28,15 +28,18 @@ This is the official website for a retired rock band The Racketears. As the band
   #### **Typography**
   - Roboto font is the main used across the website, Sans Serif as the fallback. Roboto is a popular font in web development that is attractive, pleasant and professional looking. The logo is styled using Road Rage font, Sans Serif as the fallback. A striking, impactful, untidy font is ideal for a rock band. The extremely decorative font is suitable for a logo but is not used anywhere else on a website.
   #### **Imagery**
-  - Hero image contains band members to help identify the band. Rustic, aged, film photography hints at the time music was produced in the early 2000s. The Colour scheme matches the rest of the website.
+  - Hero image contains band members to help identify the band. Rustic film photography hints at the time music was produced in the early 2000s. The Colour scheme matches the rest of the website.
 
 ## Wireframes
 - Home Page Wireframe
 - Mobile Wireframe
 - Contact Us Page Wireframe
 
-# Features
-Responsive on all device sizes
+## Features
+* Responsive on all device sizes
+
+# Further development
+* Playlist addition to the gallery would be the next step in the project.
 
 # Technologies Used
 ## Languages Used
@@ -59,8 +62,6 @@ Responsive on all device sizes
 
 # Testing
  The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-- W3C Markup Validator - Results
-- W3C CSS Validator - Results
 
 ## Testing User Stories from User Experience (UX) Section
 #### **First time visitor goals**
