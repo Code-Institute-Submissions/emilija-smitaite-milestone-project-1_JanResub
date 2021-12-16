@@ -70,6 +70,8 @@ This is the official website for a retired rock band The Racketears. As the band
 
 # Testing
  The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+ * HTML validator results [Home Page](assets/images/html-validator(index.html)) [Gallery page](assets/images/html-validator(gallery.html)) [Get in Touch page](assets/images/html-validator(signup.html)) 
+ * [CSS validator results](assets/images/css-validator(style.css))
 
 ## Testing User Stories from User Experience (UX) Section
 #### **Client Goals**
