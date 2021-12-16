@@ -91,6 +91,10 @@ ol, ul {
     color:#a19d9d;
 }
 
+a:hover {
+    color:#a19d9d;
+}
+
 /*-----------------------------------------------Media queries*/
 @media screen and (min-width:768px) {
     .form {
@@ -238,6 +242,12 @@ i{
 .sign-up-footer {
 position:absolute;
 bottom:0;
+}
+
+a {
+    color:#fafafa;
+    text-decoration: none;
+    font-size: 110%;
 }
 
 /*-----------------------------------------------Album covers*/
