@@ -67,6 +67,8 @@ This is the official website for a retired rock band The Racketears. As the band
 - GitHub is used to store the project's code after being pushed from Git.
 6. Balsamiq:
 - Balsamiq was used to create the wireframes during the design process.
+7. Web Formatter:
+- Web Formatter was used to add proper indentation and improve readability on HTML and CSS files.
 
 # Testing
  The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
