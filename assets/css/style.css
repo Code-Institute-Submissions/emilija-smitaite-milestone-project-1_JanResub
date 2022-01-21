@@ -1,348 +1,350 @@
-@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100;1,300;1,400&display=swap');
-*{
-    margin:0;
-    padding:0;
-    border:0;
-    font-size: 10px;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 10px;
+}
 
 /*-----------------------------------------------Colours*/
 body {
-    background-color: #000;
+  background-color: #000;
 }
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 p {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 /*-----------------------------------------------General*/
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 iframe {
-    display: block;
-    margin: 0 auto;
-    border:0;
-    padding:1rem;
-    width:100%;
- }
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  padding: 1rem;
+  width: 100%;
+}
 
 /*-----------------------------------------------Heading*/
 header {
-    margin:0;
+  margin: 0;
 }
 #logo {
-    font-family: 'Road Rage', sans-serif;
-    font-size: 140%;
-    text-decoration: none;
-    color:#fafafa;
-    float:left;
-    letter-spacing: .3rem;
-    margin-left:3rem; 
+  font-family: "Road Rage", sans-serif;
+  font-size: 140%;
+  text-decoration: none;
+  color: #fafafa;
+  float: left;
+  letter-spacing: 0.3rem;
+  margin-left: 3rem;
 }
 #nav {
-    background-color: #000;
-    font-size:90%;
-    list-style-type:none;
-    float:left;
-    font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  font-size: 90%;
+  list-style-type: none;
+  float: left;
+  font-family: "Roboto", sans-serif;
 }
 #nav a {
-color: #fafafa;
-font-size: 90%;
-text-decoration: none;
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
+  color: #fafafa;
+  font-size: 90%;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 #nav li {
-    float:right;
-    margin-right: 4rem;
-    font-size: 1.5rem;
+  float: right;
+  margin-right: 4rem;
+  font-size: 1.5rem;
 }
-#logo, #nav {
-    line-height:7.5rem;
+#logo,
+#nav {
+  line-height: 7.5rem;
 }
-ol, ul {
-    padding-left: 0.5rem;
+ol,
+ul {
+  padding-left: 0.5rem;
 }
 
 /*-----------------------------------------------Hero images*/
 #hero-image {
-    height: 35rem;
-    width:100%;
-    background-image:url("../images/racketears-hero.jpg");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:cover;
+  height: 35rem;
+  width: 100%;
+  background-image: url("../images/racketears-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 #hero-section {
-    height: 35rem;
-    width:100%;
-    overflow:hidden;
+  height: 35rem;
+  width: 100%;
+  overflow: hidden;
 }
 
 /*-----------------------------------------------Hover*/
 #logo:hover {
-    color:#a19d9d;
+  color: #a19d9d;
 }
 #nav a:hover {
-    color:#a19d9d;
+  color: #a19d9d;
 }
 
 a:hover {
-    color:#a19d9d;
+  color: #a19d9d;
 }
 
 /*-----------------------------------------------Media queries*/
-@media screen and (min-width:768px) {
-    .form {
-        width:70% !important;
-        margin-left:15% !important;
-        margin-right:15% !important;
-      }
-      ol, ul {
-        padding-left: 2rem;
-    }
-    
+@media screen and (min-width: 768px) {
+  .form {
+    width: 70% !important;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+  }
+  ol,
+  ul {
+    padding-left: 2rem;
+  }
 }
 
-@media screen and (min-width:1024px) {
- #nav {
-         font-size:120%;
-        }
- h1 {
-            font-size: 6rem;
-         }
-#hero-image, #hero-section {
-     height:50rem;
-       }
-.iframe {
-      width:66%;
-      }
-.gallery {
-        column-count:3 !important;
-      }
-.form {
-        width:50% !important;
-        margin-left:25% !important;
-        margin-right:25% !important;
-      }
-    }
-
-@media screen and (min-width:1200px) {
-.iframe {
-  width:50%;
+@media screen and (min-width: 1024px) {
+  #nav {
+    font-size: 120%;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  #hero-image,
+  #hero-section {
+    height: 50rem;
+  }
+  .iframe {
+    width: 66%;
   }
   .gallery {
-    column-count:4 !important;
+    column-count: 3 !important;
   }
   .form {
-    width:33% !important;
-    margin-left:33% !important;
-    margin-right:33% !important;
+    width: 50% !important;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
   }
-}
- 
-  /*-----------------------------------------------Banners*/
-  .banner {
-      width: 100%;
-      height:35rem;
-      background-color:rgb(226, 226, 58);
-      position:relative;
-  }
-  #cover-text {
-      font-family: 'Roboto', sans-serif;
-      color:black;
-      text-transform: uppercase;
-      width: 85%;
-      height:75%;
-      background-color: rgba(0, 0, 0, 0.15);
-      float:right;
-      margin-top:8rem;
-      position:absolute;
-      padding:3%;
-      font-weight: 900;
-      letter-spacing: .2rem;
-      text-align: right;
-    }
-    #cover-text-2 {
-        font-family: 'Roboto', sans-serif;
-        color:black;
-        text-transform: uppercase;
-        width: 85%;
-        height:85%;
-        background-color: rgba(0, 0, 0, 0.15);
-        float:right;
-        margin-top:4rem;
-        position:absolute;
-        padding:3%;
-        font-weight: 900;
-        letter-spacing: .2rem;
-        text-align: left;
-      }
-    #cover-text p {
-        padding:3%;
-        font-weight: 500;
-    }
-    #cover-text h2 {
-          font-size: 110%; 
-          padding:.3rem;
-      }
-   *, ::after, ::before {
-    box-sizing: border-box;
-   }
-  
-   /*-----------------------------------------------Footer*/
-   footer {
-       font-family: 'Roboto', sans-serif;
-       color:#fafafa;
-       min-height: 11rem;
-       padding-top: 2rem;
-       font-weight: 200;
-       border-top: solid 1px #fafafa;
-       margin-top:1rem;
-     
-   }
-   footer h6, p{
-       font-family: 'Roboto', sans-serif;
-       font-size: 1.6rem;
-   }
-.footer-col-small {
-    font-size: 1.3rem !important;
-}
-.inline-block{
-    display:inline-block;
-}
-.footer-col-small{
-    font-size: 95%;
-}
-.block{
-    display:block;
-}
-.footer-social {
-    width: 100%;
-}
-.footer-social-item {
-    width: 30%;
-}
-#social-footer>i{
-    color:#fafafa;
-  }
-i{
-    color:#fafafa;
-}
-.fab, .far {
-    font-weight: 400;
-    font-size: xx-large;
 }
 
- /*The following two properties were taken from https://matthewjamestaylor.com/bottom-footer*/
+@media screen and (min-width: 1200px) {
+  .iframe {
+    width: 50%;
+  }
+  .gallery {
+    column-count: 4 !important;
+  }
+  .form {
+    width: 33% !important;
+    margin-left: 33% !important;
+    margin-right: 33% !important;
+  }
+}
+
+/*-----------------------------------------------Banners*/
+.banner {
+  width: 100%;
+  height: 35rem;
+  background-color: rgb(226, 226, 58);
+  position: relative;
+}
+#cover-text {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  width: 85%;
+  height: 75%;
+  background-color: rgba(0, 0, 0, 0.15);
+  float: right;
+  margin-top: 8rem;
+  position: absolute;
+  padding: 3%;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  text-align: right;
+}
+#cover-text-2 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  width: 85%;
+  height: 85%;
+  background-color: rgba(0, 0, 0, 0.15);
+  float: right;
+  margin-top: 4rem;
+  position: absolute;
+  padding: 3%;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  text-align: left;
+}
+#cover-text p {
+  padding: 3%;
+  font-weight: 500;
+}
+#cover-text h2 {
+  font-size: 110%;
+  padding: 0.3rem;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/*-----------------------------------------------Footer*/
+footer {
+  font-family: "Roboto", sans-serif;
+  color: #fafafa;
+  min-height: 11rem;
+  padding-top: 2rem;
+  font-weight: 200;
+  border-top: solid 1px #fafafa;
+  margin-top: 1rem;
+}
+footer h6,
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+.footer-col-small {
+  font-size: 1.3rem !important;
+}
+.inline-block {
+  display: inline-block;
+}
+.footer-col-small {
+  font-size: 95%;
+}
+.block {
+  display: block;
+}
+.footer-social {
+  width: 100%;
+}
+.footer-social-item {
+  width: 30%;
+}
+#social-footer > i {
+  color: #fafafa;
+}
+i {
+  color: #fafafa;
+}
+.fab,
+.far {
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+/*The following two properties were taken from https://matthewjamestaylor.com/bottom-footer*/
 .sign-up-footer {
-position:absolute;
-bottom:0;
+  position: absolute;
+  bottom: 0;
 }
 
 a {
-    color:#fafafa;
-    text-decoration: none;
-    font-size: 110%;
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 110%;
 }
 
 /*-----------------------------------------------Album covers*/
 .album-covers img {
-text-align: center;
-height:25rem;
+  text-align: center;
+  height: 25rem;
 
-/*The following two properties were taken from https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/*/
-display: flex;
-justify-content: center;
-margin:0 auto;
+  /*The following two properties were taken from https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/*/
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 .album-covers div {
-    margin:0 auto;
+  margin: 0 auto;
 }
 .album-covers p {
-     text-align: center; 
-     margin:0 auto;
-     color:#a19d9d;
-  
+  text-align: center;
+  margin: 0 auto;
+  color: #a19d9d;
 }
 .album-background {
-    border:1px solid #a19d9d;
-    padding:1rem;
-    margin-right: .5rem;
-   
-    
+  border: 1px solid #a19d9d;
+  padding: 1rem;
+  margin-right: 0.5rem;
 }
 #albums {
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding: 0;
 }
 /*-----------------------------------------------Images*/
 #band-image {
-    height: 45rem;
-    width:100%;
-    background-image:url("../images/band-group-1.jpg");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:cover;
+  height: 45rem;
+  width: 100%;
+  background-image: url("../images/band-group-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 #band-section {
-    height: 45rem;
-    width:100%;
-    overflow:hidden;
+  height: 45rem;
+  width: 100%;
+  overflow: hidden;
 }
 /*-----------------------------------------------Gallery*/
 .audio p {
-    font-family: 'Roboto';
-   color:#fafafa;
-   clear:both;
-  
+  font-family: "Roboto";
+  color: #fafafa;
+  clear: both;
 }
 
 .gallery {
-    clear:both;
-    line-height: 0;
-    column-count:2;
-    column-gap:0;
-  }
-  .gallery img {
-    width:100%;
-  }
+  clear: both;
+  line-height: 0;
+  column-count: 2;
+  column-gap: 0;
+}
+.gallery img {
+  width: 100%;
+}
 
-   /*-----------------------------------------------Form*/
-   
-   .form {
-       border:1px solid #fafafa;
-       width:90%;
-       margin-left: 5%;
-       margin-right: 5%;
-       height:20rem;
-      
-       color:#fafafa;
-       clear:both;
-       text-align: left;
-       padding:1rem;
-   }
+/*-----------------------------------------------Form*/
 
-   .form p {
-       text-align: center;
-   }
+.form {
+  border: 1px solid #fafafa;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 20rem;
 
-   .button {
-       border-radius: 0px;
-       color:#000;
-       background-color: #fafafa;
-       border:#fafafa;
-   }
+  color: #fafafa;
+  clear: both;
+  text-align: left;
+  padding: 1rem;
+}
 
-   #exampleInputEmail1 {
-    border-radius: 0px;
-    color: #000;
-   }
-   
-   #emailHelp{
-       color:#fafafa;
-   }
+.form p {
+  text-align: center;
+}
+
+.button {
+  border-radius: 0px;
+  color: #000;
+  background-color: #fafafa;
+  border: #fafafa;
+}
+
+#exampleInputEmail1 {
+  border-radius: 0px;
+  color: #000;
+}
+
+#emailHelp {
+  color: #fafafa;
+}
